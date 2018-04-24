@@ -1,0 +1,876 @@
+
+/*ADAPTIVE*/
+
+@media (max-width: 399.98px) {
+	.header-title,
+	.header-title-line,
+	.header-adress-line,
+	.h4-line,
+	#adress,
+	#arrow2,
+	#arrow4,
+	.map,
+	#main-p,
+	.map,
+	footer .phone,
+	footer .email {
+		display: none;
+	}
+	h1,
+	h4 {
+		font-size: 1.2rem;
+		margin-bottom: 0px;
+		line-height: 1.4;
+	}
+	
+	h4{
+		font-size: 1.4rem;	
+	}
+	body {
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		padding: 0.3rem 0.3rem;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	h3,
+	h5,
+	.title {
+		font-size: 1.1rem;
+	}
+	#logo {
+		max-width: 120px;
+		min-width: 60px;
+	}
+	#logo img {
+		width: 100%;
+	}
+	.phone {
+		font-size: 16px;
+	}
+	.main {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-top: 60px;
+	}
+	
+	.main-txt{
+		width:100%;
+	}
+
+	.form {
+		margin-top: 10px;
+	}
+	.form-title {
+		font-size: 16px;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.main-btn {
+		padding: 0.5rem;
+	}
+	.ico-cog,
+	.ico-number,
+	.ico-phone {
+		padding: 0.5rem;
+		padding-left: 25px;
+	}
+
+		.advantages-holder {
+		background-color: #efeff0;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	#advantages {
+		background-image: none;
+		background-color: #efeff0;
+		padding: 5px 0;
+	}
+	#advantages p {
+		font-size: 14px;
+		line-height: 1.2;
+		margin: 0 4px;
+		padding: 0;
+	}
+	#advantages span {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	
+	.advantage{
+		width:100%;
+		justify-content: flex-start;
+		padding: 0 15px;
+		min-height: 90px;
+	}
+	
+	.advantage img{
+		padding: 0 10px;
+		height:90px;
+	}
+
+	.adv-1, .adv-2, .adv-3, .adv-4, .adv-5, .adv-6{
+		margin: 0;
+	}
+	
+	.adv-col-left .advantage{
+		text-align: right;
+		justify-content: flex-end;
+	}
+	
+	.advantage.adv-1, .advantage.adv-5{
+   		flex-direction: row-reverse;
+			text-align: left;
+	}
+	
+		
+	.advantage.adv-2,  .advantage.adv-6{
+			flex-direction: row-reverse;
+			text-align: right;
+	}
+	
+	.adv-col{
+		width:100%;;
+	}
+
+	.adv-col-left{
+		align-items: flex-start;
+		padding: 0;
+	}
+	
+	.adv-col-right{
+		padding: 0;
+	}
+	#catalog a {
+		text-decoration: none;
+	}
+	.card {
+		min-width: 130px;
+		max-width: 150px;
+		margin: 5px;
+		padding: 5px;
+	}
+	.card-title {
+		width: auto;
+		font-size: 16px;
+	}
+	.card img {
+		width: 130px;
+		height: auto;
+		min-height: 120px;
+	}
+	.card-price {
+		font-size: 16px;
+	}
+	.card-btn {
+		width: 90%;
+		display: block;
+	}
+	.faq-holder {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.photo-holder div {
+		padding: 0.5rem 0.5rem;
+		min-width: 140px;
+	}
+	.photo-holder img {
+		width: 100%;
+	}
+	#catalog {
+		margin-top: 1rem;
+	}
+	#catalog h4 {
+		margin-bottom: 0px;
+	}
+	#catalog h5 {
+		margin-top: 0px;
+	}
+	#faq-question {
+		width: 95%;
+		padding: 0 1rem;
+	}
+	#warranty {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.warranty-holder div {
+		width: 50%;
+	}
+	.warranty-holder div img {
+		width: 100%;
+	}
+	.warranty-title {
+		font-size: 16px;
+		line-height: 1.2;
+		margin: 5px 0;
+	}
+	.order-item {
+		width: 40%;
+	}
+	#arrow3 {
+		display: block;
+	}
+	#faq-question h5 {
+		font-size: 1.1rem;
+	}
+	.title .decor {
+		font-size: 1.3rem;
+	}
+	.manager-cont {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.consult-title {
+		text-align: center;
+	}
+	.manager-txt {
+		width: auto;
+	}
+	#contacts-bot {
+		padding: 1rem 1rem;
+	}
+	#contacts-bot-content {
+		padding: 1rem;
+	}
+	.consult {
+		width: 90%;
+	}
+	.manager-photo {
+		margin-right: 0.3rem;
+	}
+	#sale {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.3)
+	}
+	
+	footer{
+		justify-content: center;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 575.98px) {
+	.header-title,
+	.header-title-line,
+	.header-adress-line,
+	#main-p,
+	#adress,
+	#arrow2,
+	#arrow4,
+	.map,
+	footer .phone,
+	footer .email {
+		display: none;
+	}
+	h1,
+	h4 {
+		font-size: 1.3rem;
+		margin-bottom: 0px;
+		line-height: 1.4;
+	}
+	body {
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		padding: 0.5rem 0.5rem;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	h3,
+	h5,
+	.title {
+		font-size: 1.1rem;
+		line-height: 1.4;
+	}
+	.phone {
+		font-size: 18px;
+	}
+	.main {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-top: 80px;
+	}
+	
+	.main-txt{
+		width:100%;
+	}
+	
+	.form {
+		margin-top: 10px;
+	}
+	.form-title {
+		font-size: 18px;
+	}
+	.btn {
+		font-size: 18px;
+	}
+	.main-btn {
+		padding: 0.7rem;
+	}
+	.ico-cog,
+	.ico-number,
+	.ico-phone {
+		padding: 0.7rem;
+		padding-left: 25px;
+	}
+	.advantages-holder {
+		background-color: #efeff0;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	#advantages {
+		background-image: none;
+		background-color: #efeff0;
+		padding: 5px 0;
+	}
+	#advantages p {
+		font-size: 16px;
+		line-height: 1.4;
+		margin: 0 4px;
+		padding: 0;
+	}
+	#advantages span {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+	
+	.advantage{
+		width:100%;
+		justify-content: flex-start;
+		padding: 0 15px;
+	}
+	
+	.advantage img{
+		padding: 0 10px;
+	}
+
+	.adv-1, .adv-2, .adv-3, .adv-4, .adv-5, .adv-6{
+		margin: 0;
+	}
+	
+	.adv-col-left .advantage{
+		text-align: right;
+		justify-content: flex-end;
+	}
+	
+	.advantage.adv-1, .advantage.adv-5{
+   		flex-direction: row-reverse;
+			text-align: left;
+	}
+	
+		
+	.advantage.adv-2,  .advantage.adv-6{
+			flex-direction: row-reverse;
+			text-align: right;
+	}
+	
+	.adv-col{
+		width:100%;;
+	}
+
+	.adv-col-left{
+		align-items: flex-start;
+		padding: 0;
+	}
+	
+	.adv-col-right{
+		padding: 0;
+	}
+	#catalog a {
+		text-decoration: none;
+	}
+	.card {
+		min-width: 130px;
+		max-width: 170px;
+		margin: 5px;
+		padding: 5px;
+	}
+
+
+	.card-title {
+		width: auto;
+		font-size: 18px;
+	}
+	.card img {
+		width: 130px;
+		height: auto;
+		min-height: 120px;
+	}
+	.card-price {
+		font-size: 16px;
+	}
+	.card-btn {
+		width: 90%;
+		display: block;
+	}
+	.faq-holder {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.photo-holder div {
+		padding: 1rem 0.5rem;
+		min-width: 125px;
+	}
+	.photo-holder img {
+		width: 100%;
+	}
+	#catalog {
+		margin-top: 1rem;
+	}
+	#catalog h4 {
+		margin-bottom: 0px;
+	}
+	#catalog h5 {
+		margin-top: 0px;
+	}
+	#faq-question {
+		width: 100%;
+		padding: 0 1rem;
+	}
+	#warranty {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.warranty-holder div {
+		width: 50%;
+	}
+	.warranty-holder div img {
+		width: 100%;
+	}
+	.warranty-title {
+		font-size: 16px;
+		line-height: 1.2;
+		margin: 5px 0;
+	}
+	.order-item {
+		width: 40%;
+	}
+	#sale {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.3)
+	}
+	#faq-question h5 {
+		font-size: 1.3rem;
+	}
+	.title .decor {
+		font-size: 2rem;
+	}
+	.manager-cont {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.consult-title {
+		text-align: center;
+	}
+	.manager-txt {
+		width: auto;
+	}
+	#contacts-bot {
+		padding: 1rem 1rem;
+	}
+	#contacts-bot-content {
+		padding: 1rem;
+	}
+	.consult {
+		width: 90%;
+	}
+	
+	footer{
+		justify-content: center;
+	}
+}
+
+
+/*Малые девайсы («ландшафтные», >= 575px)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header-title,
+	.header-title-line,
+	.header-adress-line,
+	#adress,
+	.map {
+		display: none;
+	}
+	h1,
+	h4 {
+		font-size: 1.8rem;
+		margin-bottom: 0px;
+	}
+	body {
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		padding: 0.5rem 1rem;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	h3,
+	h5 {
+		font-size: 1.3rem;
+	}
+	.main {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-top: 70px;
+	}
+	
+	.main-txt{
+		width:90%;
+	}
+	.form {
+		margin-top: 10px;
+	}
+	.advantages-holder,
+	#advantages {
+		background-color: #efeff0;
+		background-image: none;
+	}
+	
+	.adv-1, .adv-2, .adv-3, .adv-4, .adv-5, .adv-6{
+		margin: 0;
+	}
+	#advantages p,
+	#advantages span {
+		font-size: 14px;
+	}
+	
+	
+	.adv-col-left{
+		padding-right: 0.5rem;
+	}
+	
+		.adv-col-right{
+		padding-left: 0.5rem;
+	}
+	.advantage img {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.advantage{
+		padding:  0.5rem 0;
+	}
+	.photo-holder div {
+		padding: 0.5rem 0.5rem;
+		min-width: 180px;
+	}
+	#catalog {
+		margin-top: 1rem;
+	}
+	#catalog h4 {
+		margin-bottom: 0px;
+	}
+	#catalog h5 {
+		margin-top: 0px;
+	}
+	.faq-holder {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	#faq-question {
+		width: 90%;
+		padding: 0 1rem;
+	}
+	#warranty {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	#sale {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.2)
+	}
+	#faq-question h5 {
+		font-size: 1.3rem;
+	}
+	.title .decor {
+		font-size: 2rem;
+	}
+	.manager-cont {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.consult-title {
+		text-align: center;
+	}
+	.manager-txt {
+		width: auto;
+	}
+	#contacts-bot {
+		padding: 1rem 1rem;
+	}
+	#contacts-bot-content {
+		padding: 1rem;
+	}
+	.consult {
+		width: 90%;
+	}
+	.consult p {
+		padding: 0 30px;
+	}
+}
+
+
+/* Средние девайсы («таблетки», >= 768px) */
+
+@media (min-width: 768px) and (max-width: 991.8px) {
+	.header-title,
+	.header-title-line,
+	.map{
+		display: none;
+	}
+	h1,
+	h4 {
+		font-size: 1.8rem;
+		margin-bottom: 0px;
+	}
+	body {
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		padding: 1rem 1rem;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	h3,
+	h5 {
+		font-size: 1.4rem;
+	}
+	.main {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	
+	.main-txt{
+		max-width:60%;
+	}
+
+	.sale-form {
+		margin-top: 10px;
+	}
+	.advantages-holder {
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	
+	.advantage{
+		padding: 1rem 0;
+	}
+	
+	.adv-1, .adv-2, .adv-3, .adv-4, .adv-5, .adv-6{
+		margin: 0;
+	}
+	.faq-holder {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	#sale {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.1)
+	}
+	.sale-motor {
+		padding-right: 15px;
+	}
+	#faq-question {
+		width: 90%;
+		padding: 0 1rem;
+	}
+	#contacts-bot {
+		padding: 1rem 1rem;
+	}
+	#contacts-bot-content {
+		padding: 1rem;
+	}
+	.consult {
+		width: 50%;
+	}
+	.manager-photo {
+		width: 25%;
+		min-width: 150px;
+		margin-right: 1rem;
+	}
+	.manager-cont {
+		width: auto;
+	}
+	.manager-txt {
+		width: auto;
+	}
+	#form-bot {
+		min-width: 250px;
+		width: 50%;
+	}
+	.sale-motor {
+		width: 40%;
+		min-width: 330px;
+		max-width: 420px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+	h1{
+		font-size: 1.6rem;
+	}
+	
+	h3{
+		font-size: 1.3rem;
+	}
+	
+	#main-p{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 813px){
+	.main{
+		margin-top:70px;
+		
+	}
+	.main-txt{
+		width:80%;
+	}
+	
+	.main-form{
+		margin-top: 10px;
+	}
+	
+	.main ul li{
+		font-size:16px;
+	}
+}
+
+
+
+/*Большие девайсы (большие десктопы, >= 992px)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	*,
+	.wrapper,
+	.main-bg {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.wrapper {
+		padding: 1rem 1rem;
+	}
+	h1,
+	h4 {
+		font-size: 2rem;
+	}
+	h3,
+	h5 {
+		font-size: 1.4rem;
+	}
+	
+#adress{
+	padding-right: 15px;
+}
+	.main {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-around;
+	}
+	.main-bg {
+		padding: 1rem 2rem;
+	}
+	#advantages p,
+	#advantages span {
+		font-size: 16px;
+	}
+	
+	.adv-1 {
+	margin-right: 35%;
+}
+
+.adv-2 {
+	margin-left: 35%;
+}
+
+.adv-3 {
+	margin-right: 42%;
+}
+
+.adv-4 {
+	margin-left: 42%;
+}
+	
+	.adv-5{
+			margin-right: 33%;
+	}
+	
+	.adv-6{
+			margin-left: 33%;
+	}
+
+	#sale {
+		-webkit-box-align: stretch;
+		-ms-flex-align: stretch;
+		align-items: center;
+	}
+	.sale-form {
+		margin-bottom: 4px;
+	}
+	.faq-holder {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	#faq-question {
+		width: 90%;
+	}
+	#contacts-bot {
+		padding: 2rem 3rem;
+	}
+	.sale-motor {
+		min-width: 450px;
+	}
+}
+
+
+/*Большие девайсы (большие десктопы, >= 1200px)*/
+
+@media (min-width: 1200px) {
+	.wrapper {
+		max-width: 1280px;
+		padding: 1rem 2rem;
+	}
+	.header-content {
+		max-width: 1280px;
+		min-width:1100;
+	}
+
+	.wrapper.main {
+		max-width: 1100px;
+	}
+	.main-txt {
+		margin-right: 2.5rem;
+	}
+	.sale-motor {
+		min-width: 450px;
+		padding-right: 20px;
+	}
+}
